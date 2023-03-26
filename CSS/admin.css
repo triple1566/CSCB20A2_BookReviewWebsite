@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+     
+img {
+  height: 200px;
+  width: 150px;
+}
+     
+
+#imageIDs {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+     
+#imageIDs div {
+  margin: 0 4px 4px 4px;
+  padding: 0.4em;
+  display: inline-block;
+}
+     
+
+#output-values {
+  margin: 0 2px 2px 2px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  width: 250px;
+  border: 2px solid darkblue;
+  background: gray;
+}
+     
+.listitemClass {
+  border: 1px solid darkblue;
+  width: 150px;
+}
+     
+.height {
+  height: 10px;
+}

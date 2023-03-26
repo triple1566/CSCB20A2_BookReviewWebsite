@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Okayreads Login</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <div class="fontOne">
+  <div class="menu">
+    <table class="center">
+      <tr>
+        
+        <td class="horPadding"><h2>
+          <a href="index.html">Home</a>            </h2></td>
+        
+        <td class="horPadding"><h2>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Option 2</a>            </h2></td>
+        
+        <td class="horPadding"><h2>
+          <a href="reviews.html">Top Reviews</a>            </h2></td>
+        
+        <td class="horPadding"><h2>
+          <a href="login.html">Log In</a>
+        </h2></td>
+        
+      </tr>
+      
+    </table>
+  </div>
+  </div>
+    <div class="fontOne">
+    <div class="leftmenu">
+      <table class="left">
+
+        <tr class="horPadding">
+          <td>
+            <h2>
+              <a href="index.html">Home</a>
+            </h2>
+          </td>
+        </tr>
+
+        <tr class="horPadding">
+          <td>
+            <h2>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Option 2</a>
+            </h2>
+          </td>
+        </tr>
+
+        <tr class="horPadding">
+          <td>
+            <h2>
+              <a href="reviews.html">Top Reviews</a>
+            </h2>
+          </td>
+        </tr>
+
+        <tr class="horPadding">
+          <td>
+            <h2>
+              <a href="login.html">Log In</a>
+            </h2>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+  <button onclick="change()" style="background-color:#333333;color: rgb(255, 0, 0);border-radius:5px">It Starts With Us</button>
+  <button onclick="change2()" style="background-color:#333333;color: rgb(0, 0, 255);border-radius:5px">Daisy Jones & The Six</button>
+  <button onclick="change3()" style="background-color:#333333;color: rgb(0, 255, 0);border-radius:5px">It Ends With Us</button>
+  <button onclick="change4()" style="background-color:#333333;color:rgb(255, 165, 0);border-radius:5px">Spare</button>
+    <button onclick="change5()" style="background-color:#333333;color:#800080;border-radius:5px">Verity</button>
+    
+  <h1 id="test2"h1 style="background-color:blueviolet;">     Top Reviews for 'It Starts With Us'</h1>
+    
+  <h2 id="test4"h2 style="background-color:Red;">Review by Random_User 1234</h2>
+  <p id="test"style="background-color:White;">  
+     '"It starts with us" serves as both an excellent story and a worthwhile read, it combines elements of a bunch of interesting book stuff to make you connect with the characters of the book. A must read for those interested in the romance genre.'</p>
+
+  <h2 id="test5"h2 style="background-color:Blue;">Review by Random_User 1235</h2>
+  <p id="test3"style="background-color:White;">  
+     'An excellent book all that needs to be said!'
+  </p>
+
+
+  <script>
+    function change(){
+      document.getElementById("test").innerHTML= '"It Starts With Us" serves as both an excellent story and a worthwhile read, it combines elements of a bunch of interesting book stuff to make you connect with the characters of the book. A must read for those interested in the romance genre.';
+
+      document.getElementById("test2").innerHTML=      "Top Reviews for 'It Starts with us'";
+
+      document.getElementById("test4").innerHTML=      "Review by Random_User 1234"
+
+      document.getElementById("test3").innerHTML=      "'An excellent book all that needs to be said!'";
+
+      document.getElementById("test5").innerHTML=      "Review by Random_User 1235";
+    }
+
+    function change2(){
+      document.getElementById("test").innerHTML=      'Taking place in the 70s, "Daisy Jones & The Six" tells the story of each memeber of a rock band that recently broke up despite their rising future of success and glory. An excellent read.';
+
+      document.getElementById("test2").innerHTML=      "Top Reviews for 'Daisy Jones & The Six'";
+
+      document.getElementById("test4").innerHTML=      "Review by Random_User 657";
+
+      document.getElementById("test3").innerHTML=           "If you love rock music and bands you will love 'Daisy Jones & The Six'!";
+
+      document.getElementById("test5").innerHTML=      "Review by Random_User 191";
+    }
+
+    function change3(){
+      document.getElementById("test").innerHTML=      'A troubling relationship, not everything is as it seems, a story about heartbreak and misguidance';
+
+      document.getElementById("test2").innerHTML=      "Top Reviews for 'It Ends With Us'";
+    
+      document.getElementById("test3").innerHTML=           "Dramatic!  Sad! But a spectacular story!";
+      
+      document.getElementById("test4").innerHTML=      "Review by Random_User 857";
+
+      document.getElementById("test5").innerHTML=      "Review by Random_User 131";
+    }
+
+    function change4(){
+      document.getElementById("test").innerHTML=      'Spare, a memoir on the close up life of Prince Harry';
+      
+      document.getElementById("test2").innerHTML=      "Top Reviews for 'Spare'";
+
+      document.getElementById("test3").innerHTML=           "The life of prince Harry from child to adoloscent to the present. A closer view towards his relationship with the royal family ";
+      
+      document.getElementById("test4").innerHTML=      "Review by Random_User 837";
+
+      document.getElementById("test5").innerHTML=      "Review by Random_User 941";
+    }
+
+    function change5(){
+      document.getElementById("test").innerHTML=      '"Verity is an awesome book to read in your leisure time"';
+
+      document.getElementById("test2").innerHTML=      "Top Reviews for 'Verity'";
+
+      document.getElementById("test4").innerHTML=      "Review by Random_User 457";
+
+      document.getElementById("test3").innerHTML=           "A Psychological thriller. A Story of Grief and Trauma and most importantly becareful who you trust.";
+
+      document.getElementById("test5").innerHTML=      "Review by Random_User 561";
+    }
+    const leftMenu = document.querySelector(".leftmenu");
+const topMenu = document.querySelector(".menu");
+function menuLoc(){
+  if (window.innerWidth < 700) {
+    leftMenu.style.display="none";
+    topMenu.style.display="block";
+  }
+  if(window.innerWidth >= 700){
+    leftMenu.style.display="block";
+    topMenu.style.display="none";
+  }
+}
+window.addEventListener("load", menuLoc);
+window.addEventListener("resize", menuLoc);
+  </script>
+  </body>
+</html>

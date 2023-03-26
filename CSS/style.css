@@ -1,0 +1,135 @@
+body{
+  background-color: #d0cab3;
+}
+
+.dark-mode {
+  background-color: #080e12;
+  color: white;
+}
+
+
+/*===================*/
+#footer {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background: #432818;
+  color: #FFB703;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1{
+  color: #432818;
+  font-size: 
+}
+
+#book_img {
+  border-radius: 8px;
+  height: 150px;
+  width: auto;
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgColumn{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*-----------Menu Variations-----------*/
+.menuCenter{
+  position: relative;
+  height: 10%;
+  width: 100%;
+  background: #a4d194;
+  text-align: center;
+  font-size: auto;
+  color: #89540b;
+}
+.menuLeft{
+  position: relative;
+  height: 10%;
+  width: 100%;
+  background: #a4d194;
+  text-align: center;
+  font-size: auto;
+  color: #89540b;
+}
+/*--------------------------------------*/
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.left{
+  margin-left: 0%;
+  margin-right: auto;
+  text-align: left;
+}
+.horPadding{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.verPadding{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*Font classes=========================================*/
+
+.fontOne{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*Link Colors*/
+a:link {
+  color: #89540b; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #89540b;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #432818;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #89540b;
+  background-color: transparent;
+  text-decoration: none;
+}
+.book_hov:hover{
+  transform: scale(1.2);
+}
+
+/*-------------SPARE-------------*/
+img.book_pages {
+  height: 200px;
+  width: 150px;
+  position: relative;
+}
+
+.menu.hidden{
+  display: none;
+}
+.leftmenu.hidden{
+  display: none;
+}
