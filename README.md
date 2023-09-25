@@ -2,3 +2,5 @@
  Our first Website -  Created by Leo, Chris, and Prithiv
 
 This was our second assignment for CSCB20 at the University of Toronto
+
+Link: https://bookreviewwithrickroll.netlify.app/
